@@ -1,0 +1,33 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Outfit&display=swap'); */
+
+@import url("https://fonts.googleapis.com/css2?family=Outfit&family=PT+Mono&family=Raleway:wght@400;500;600;700&family=Inter:wght@400;500;600;700&display=swap");
+
+body {
+  margin: 0;
+  font-family: "PT Mono", monospace !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #0f051a;
+  overflow-x: hidden;
+  color: #f0f0f0;
+}
+
+code {
+  font-family: "PT Mono", monospace !important;
+}
+
+/* Smooth scrolling for better UX */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Default text selection styling */
+::selection {
+  background-color: rgba(205, 95, 248, 0.3);
+  color: #f0f0f0;
+}
+
+::-moz-selection {
+  background-color: rgba(205, 95, 248, 0.3);
+  color: #f0f0f0;
+}
